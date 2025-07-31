@@ -3,7 +3,7 @@ from flask import Flask
 import psycopg2
 db_url = "postgresql://majeski_lab10_postgres_user:AZdm4W5PQxFcvAVRy0mnWFbsgt5B1MGj@dpg-d259skfdiees73asb150-a/majeski_lab10_postgres"
 
-app = Flask(__name__)
+app = Flask(__name__) 
 
 @app.route('/')
 def hello_world():
